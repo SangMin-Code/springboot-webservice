@@ -14,7 +14,7 @@ import javax.persistence.Id;
 @Getter
 @NoArgsConstructor
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity{
 
 
        @GeneratedValue(strategy = GenerationType.IDENTITY)
